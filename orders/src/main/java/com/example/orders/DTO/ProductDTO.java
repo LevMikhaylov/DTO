@@ -10,12 +10,4 @@ public class ProductDTO {
     String name;
     Double price;
     Integer quantity;
-
-    @Enumerated(EnumType.STRING)
-    String status;
-}
-enum Status {
-    DELIVERED,
-    CREATED,
-    CANCELED
 }
